@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@1,300&family=Montserrat:wght@100&family=Rubik+Bubbles&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+/* responsive */
+
+
+@media only screen and (min-width: 992px) {
+    #carimg {
+        width: 100%;
+        height: 40rem;
+        margin-top: 2px;
+    }
+    .local_p{
+        height: 16rem;
+    }
+    .cities{
+        border-radius: 100%;
+        height: 100px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #carimg {
+        width: 100%;
+        height: 35rem;
+        margin-top: 1.5px;
+    }
+    .local_p{
+        height: 12rem;
+    }
+    .cities{
+        border-radius: 100%;
+        height: 100px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #carimg {
+        width: 100%;
+        height: 20rem;
+        margin-top: 1px;
+    }
+    .local_p{
+        height: 6rem;
+    }
+    .cities{
+        border-radius: 100%;
+        height: 100px;
+        margin: 10px;
+    }
+}
+
+.row {
+    text-align: center;
+}
+
+.btn {
+    margin: 15px;
+    border-radius: 15px;
+}
+.navbar{
+    background-color: #060047;
+
+}
+footer{
+    height: 6rem;
+    margin-bottom: 0;
+    background-color: #060047;
+}
+.col-lg-4{
+    margin: 30px 0 10px;
+}
+.footer_p{
+
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+}
+h5 , h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    text-shadow: #060047;
+}
+hr{
+    border: dotted;
+    border-radius: 5px;
+}
+button{
+    font-family: 'Ubuntu', sans-serif;
+}
